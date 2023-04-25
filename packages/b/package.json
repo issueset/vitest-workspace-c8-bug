@@ -1,0 +1,8 @@
+{
+    "name": "b",
+    "private": true,
+    "devDependencies": {
+        "a": "workspace:*",
+        "vitest": "^0.30.1"
+    }
+}

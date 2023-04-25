@@ -1,0 +1,18 @@
+{
+  "name": "vitest-workspace-c8-bug",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.3.1",
+  "scripts": {
+    "test:c8": "vitest run --coverage.enabled --coverage.provider=c8 --coverage.all --coverage.reportsDirectory=coverage/c8",
+    "test:istanbul": "vitest run --coverage.enabled --coverage.provider=istanbul --coverage.all --coverage.reportsDirectory=coverage/istanbul"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "@vitest/coverage-istanbul": "^0.30.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.1",
+    "vitest": "^0.30.1"
+  }
+}
